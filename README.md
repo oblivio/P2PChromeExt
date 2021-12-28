@@ -18,6 +18,8 @@ https://gilfink.medium.com/adding-web-interception-abilities-to-your-chrome-exte
 ## Connect to the Victim Peer
 
 You can simply go to this website and enter the peer-id, then connect. 
+
+
 https://jmcker.github.io/Peer-to-Peer-Cue-System/send.html
 
 Or - if you wanna do it via code - 
