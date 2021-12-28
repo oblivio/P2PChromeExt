@@ -1,0 +1,19 @@
+{
+  "name": "OBLIVIOUS-REQUESTS",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Expirement with P2P, extensions, and dark arts.",
+  "background": {
+    "scripts": [
+      "src/bg/peerjs.min.js",
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "<all_urls>",
+    "cookies",
+    "storage"
+  ]
+}
