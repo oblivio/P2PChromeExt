@@ -5,7 +5,9 @@ ChromeExtension implant that intercepts all of the victim's requests, stores the
 When someone connects to the victim peer, the victim's network request history will be broadcasted via WebRTC.
 
 # Defending The Browser Extension Attack Surface
-Generate Chrome enterprise policies with hardened browser security. This allows you to prevent extensions from accessing these specific sites even if you've already granted them permission to do so when first installing them.
+As a user, avoid blindly installing browser extensions. Review the browser permissions, privacy policy, and terms of use the browser extension requests. Only install extensions from sources you absolutely trust.
+
+And if you are with Corpsec or IT, generate Chrome enterprise policies with hardened browser security. This allows you to prevent extensions from accessing these specific sites even if you've already granted them permission to do so when first installing them.
 
 # What does this protect against?
 This protects from hijacked extensions with backdoored updates and against extensions that have been exploited due to a security vulnerability in their code.
